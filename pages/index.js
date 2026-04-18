@@ -32,12 +32,26 @@ export default function Home() {
       <div style={{ padding: "20px" }}>
         <h2>📺 Latest Videos</h2>
 
-        <iframe
-          width="100%"
-          height="300"
-          src="https://www.youtube.com/embed/smYqbwLUbJRcxc12"
-          allowFullScreen
-        ></iframe>
+      <iframe
+  width="100%"
+  height="250"
+  src="https://www.youtube.com/embed/F3dNXqhD5uU"
+  allowFullScreen
+></iframe>
+
+<iframe
+  width="100%"
+  height="250"
+  src="https://www.youtube.com/embed/6xLaK-i_U2g"
+  allowFullScreen
+></iframe>
+
+<iframe
+  width="100%"
+  height="250"
+  src="https://www.youtube.com/embed/VhSupMIPJNk"
+  allowFullScreen
+></iframe>
       </div>
 
       {/* Live Market */}
@@ -45,10 +59,11 @@ export default function Home() {
         <h2>📊 Live Market</h2>
 
         <iframe
-          src="https://www.tradingview.com/widgetembed/?symbol=NSE%3ANIFTY&interval=5&theme=dark"
-          width="100%"
-          height="400"
-        ></iframe>
+  src="https://www.tradingview.com/widgetembed/?symbol=NSE%3ANIFTY&interval=5&theme=dark"
+  width="100%"
+  height="400"
+  frameBorder="0"
+></iframe>
       </div>
 
     </div>
