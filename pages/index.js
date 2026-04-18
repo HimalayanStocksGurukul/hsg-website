@@ -32,24 +32,33 @@ export default function Home() {
       <div style={{ padding: "20px" }}>
         <h2>📺 Latest Videos</h2>
 
-      <iframe
+  <iframe
   width="100%"
   height="250"
-  src="https://www.youtube.com/embed/F3dNXqhD5uU"
+  src="https://www.youtube.com/embed/F3dNXqhD5uU?rel=0&modestbranding=1"
+  title="YouTube video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
 
 <iframe
   width="100%"
   height="250"
-  src="https://www.youtube.com/embed/6xLaK-i_U2g"
+  src="https://www.youtube.com/embed/6xLaK-i_U2g?rel=0&modestbranding=1"
+  title="YouTube video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
 
 <iframe
   width="100%"
   height="250"
-  src="https://www.youtube.com/embed/VhSupMIPJNk"
+  src="https://www.youtube.com/embed/VhSupMIPJNk?rel=0&modestbranding=1"
+  title="YouTube video"
+  frameBorder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowFullScreen
 ></iframe>
       </div>
